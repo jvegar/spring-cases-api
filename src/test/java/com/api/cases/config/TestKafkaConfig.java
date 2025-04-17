@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.api.cases.config;
 
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.boot.test.context.TestConfiguration;

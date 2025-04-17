@@ -1,7 +1,9 @@
-package com.example.demo.repository;
+package com.api.cases.repository;
 
-import com.example.demo.model.Transaction;
 import org.springframework.data.r2dbc.repository.R2dbcRepository;
+
+import com.api.cases.model.Transaction;
+
 import reactor.core.publisher.Flux;
 
 public interface TransactionRepository extends R2dbcRepository<Transaction, String> {

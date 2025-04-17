@@ -1,15 +1,16 @@
-package com.example.demo;
+package com.api.cases;
 
-import com.example.demo.config.TestKafkaConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ActiveProfiles;
 
+import com.api.cases.config.TestKafkaConfig;
+
 @SpringBootTest
 @Import(TestKafkaConfig.class)
 @ActiveProfiles("test")
-class DemoApplicationTests {
+class CasesApplicationTests {
     @Test
     void contextLoads() {
     }

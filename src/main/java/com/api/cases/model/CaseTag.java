@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.api.cases.model;
 
 import lombok.Data;
 import org.springframework.data.relational.core.mapping.Table;

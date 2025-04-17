@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.api.cases.controller;
 
-import com.example.demo.model.Case;
-import com.example.demo.service.CaseService;
+import com.api.cases.model.Case;
+import com.api.cases.service.CaseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

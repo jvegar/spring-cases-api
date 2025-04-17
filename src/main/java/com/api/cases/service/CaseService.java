@@ -1,9 +1,11 @@
-package com.example.demo.service;
+package com.api.cases.service;
 
-import com.example.demo.model.Case;
-import com.example.demo.repository.CaseRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import com.api.cases.model.Case;
+import com.api.cases.repository.CaseRepository;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import java.time.Instant;  // Add this import
