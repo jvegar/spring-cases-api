@@ -1,7 +1,9 @@
-package com.example.demo.repository;
+package com.api.cases.repository;
 
-import com.example.demo.model.Case;
 import org.springframework.data.r2dbc.repository.R2dbcRepository;
+
+import com.api.cases.model.Case;
+
 import reactor.core.publisher.Flux;
 
 public interface CaseRepository extends R2dbcRepository<Case, String> {
